@@ -6,7 +6,7 @@ const User = ({ user }) => {
     <section className="m-4 py-4">
         <div className="center">
             <div className="relative h-40 w-40 rounded-full">
-                <Image src={user?.imageUrl} alt={user?.name}/>
+                <Image src={`http://${user?.imageUrl}`} alt={user?.name} width={200} height={200}/>
             </div>
             <h1 className="text-xl font-bold">{user?.name}</h1>
             <p className="text-sm text-stone-400">{user?.email}</p>
