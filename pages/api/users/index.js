@@ -1,6 +1,6 @@
 // import { createUser, getUsers } from "@/lib/prisma/users";
 
-import { createUser } from "../../../lib/prisma/users";
+import { createUser, getUsers } from "../../../lib/prisma/users";
 
 
 const handler = async (req, res) => {
